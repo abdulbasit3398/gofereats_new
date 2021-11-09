@@ -1,0 +1,43 @@
+.login .log-user .select {
+  width: 100%;
+}
+
+.login .log-user .select .select-styled {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 8px 25px 8px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.login .log-user .select .select-styled:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.login .log-user .select .select-styled:after {
+  border-color: #000 transparent transparent transparent;
+  top: 18px;
+  right: 6px;
+}
+
+.login .log-user .select .select-styled.active:after {
+  border-color: transparent transparent #000 transparent;
+  top: 9px;
+}
+
+.login .log-user .select .select-options li {
+  color: #000;
+}
+
+.login .log-user .cls_logsocial img {
+  height: 45px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  margin: 0 10px;
+  border-radius: 50px;
+  padding: 3px;
+}
+

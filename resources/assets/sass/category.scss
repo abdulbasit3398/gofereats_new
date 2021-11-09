@@ -1,0 +1,249 @@
+.feeds
+{
+	.cls_topcategory
+	{
+		margin: 4em 0;
+
+		.title
+		{
+			margin-bottom: 2em;
+			h3 
+			{
+				font-size: 30px;
+    			font-weight: 100;
+			}
+		}
+		.cls_toplist
+		{
+			.categorylist_slider
+			{
+				.cls_listin
+				{
+					box-shadow:0px 8px 20px 0px #00000021;
+    				border-radius: 10px;
+    				display: block;
+    				.slide-img {
+					    height: 200px;
+					     img {
+						    height: 100%;
+						    width: 100%;
+						    object-fit: cover;
+						    object-position: top;
+						    border-radius: 10px 10px 0 0px;
+						}
+					}
+					.slider-info {
+					    padding: 10px 20px;
+					    margin-bottom: 35px;
+					    text-align: left;
+					    h1 {
+						    color: #000;
+						    font-size: 22px;
+						}
+					}
+				}
+			}
+			.owl-nav {
+			    position: absolute;
+			    top: 30%;
+			    left: 0;
+			    right: 0;
+			   .owl-prev {
+				    background-color: #000 !important;
+				    height: 40px;
+				    width: 40px;
+				    border-radius: 50px;
+				    min-width: auto;
+				    color: #fff !important;
+				    left: -17px;
+				    position: absolute;
+				    transform: rotate(180deg);
+				    border: 2px solid #fff;
+
+				    .icon
+				    {
+				    	color: #fff;
+				    	font-weight: bold;
+					    font-size: 16px;
+					    vertical-align: text-top;
+				    }
+				}
+				.owl-next {
+				    background-color: #000 !important;
+				    height: 40px;
+				    width: 40px;
+				    border-radius: 50px;
+				    min-width: auto;
+				    color: #fff !important;
+				    right: -17px;
+				    position: absolute;
+				    border: 2px solid #fff;
+
+				    .icon
+				    {
+				    	color: #fff;
+				    	font-weight: bold;
+					    font-size: 16px;
+					    vertical-align: text-top;
+				    }
+				}
+			}
+		}
+	}
+	.cls_nearby
+	{
+		margin: 4em 0;
+
+		.title
+		{
+			margin-bottom: 2em;
+		    display: flex;
+		    align-items: center;
+		    justify-content: space-between;
+		    border-bottom: 1px solid #9d9d9d;
+		    padding-bottom: 15px;
+		    position: relative;
+
+		    &:before
+		    {
+		    	content: "";
+			    position: absolute;
+			    height: 5px;
+			    width: 100px;
+			    background-color: #b02026;
+			    bottom: 0;
+		    }
+			h3 
+			{
+				font-size: 30px;
+    			font-weight: 100;
+			}
+
+			.cls_form {
+			    position: relative;
+			    margin-left: 8px;
+    			width: auto;
+
+			    .custom_input {
+				    border: none;
+				    padding: 0 15px 0 35px;
+				    font-size: 25px;
+				    text-overflow: ellipsis;
+				    overflow: hidden;
+				    white-space: nowrap;
+				}
+				.cls_search {
+				    position: absolute;
+				    top: 10px;
+				    height: 20px;
+				    left: 8px;
+				    line-height: 2;
+				}
+			}
+		}
+
+		.cls_nearbyin
+		{
+			 margin: 4em 0;
+			.cls_nearbyimging
+			{
+				box-shadow:0px 8px 20px 0px #00000021;
+				margin-bottom: 30px;
+				border-radius:30px;
+				display: block;
+				.cls_nearbyimg
+				{
+					position: relative;
+					
+
+					.cls_search {
+					    width: 100%;
+					    height: 207px;
+					    border-radius: 30px 30px 0 0;
+					    object-fit: cover;
+					}
+
+					.cls_nearbyimgin {
+					    position: absolute;
+					    bottom: 50px;
+					    background-color: #000000b8;
+					    color: #fff;
+					    border-radius: 0px 15px 15px 0px;
+					    padding: 15px;
+					    max-width: 150px;
+
+					    h3 {
+						    margin: 0;
+						    color: #fff;
+						    font-size: 20px;
+						}
+						h4 {
+						    margin: 0;
+						    color: #fff;
+						    font-size: 18px;
+						}
+						p {
+						    margin: 0;
+						    color: #fff;
+						    font-size: 16px;
+						}
+					}
+				}
+				.cls_nearbytext
+				{
+					padding: 15px;
+
+					h2 
+					{
+					    margin: 0;
+					    font-size: 21px;
+					}
+					p 
+					{
+					    margin: 5px 0;
+					    font-size: 15px;
+					    color: #9d9d9d;
+					}
+
+					.cls_reviewin
+					{
+						display: flex;
+						align-items: center;
+						flex-wrap: wrap;
+						justify-content: space-between;
+
+						.review
+						{
+							.active
+							{
+								color: #f9c941;
+							}
+							.inactive
+							{
+								color: #9d9d9d;
+							}
+							span
+							{
+								color: #000;
+							}
+						}
+						.noratings
+						{
+							font-size: 16px;
+							color:#000;
+						}
+						.cls_span {
+						    background-color: #b02026;
+						    padding: 2px 8px;
+						    color: #fff;
+						    font-weight: bold;
+						    border-radius: 50px;
+						    font-size: 13px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
